@@ -12,5 +12,3 @@ class ManaDashboardDemoMethodDemo(models.Model):
     _description = 'Method Demo For Mana Dashboard'
 
     name = fields.Char(string='name')
-
-

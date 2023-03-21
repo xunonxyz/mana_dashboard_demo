@@ -2,15 +2,18 @@
     "name": "mana_dashboard_demo",
     "summary": "Anita auto gen project",
     "description": "",
+
     "author": "Funenc co,ltd",
     "website": "https://www.funenc.com",
+
     "category": "Apps/Demo",
     "version": "16.0.0.1",
     "license": "OPL-1",
 
     "depends": [
         "base",
-        "web"
+        "web",
+        "mana_dashboard"
     ],
 
     "data": [
