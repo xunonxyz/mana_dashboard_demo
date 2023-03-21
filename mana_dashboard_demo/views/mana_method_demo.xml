@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 <tree>
                     <field name="name" string="name"/>
-                    <button type="action" name="%(mana_dashboard_demo.jump_dashboard_server_action)d" string="Open" class="btn btn-primary" />
+                    <button type="action" name="%(mana_dashboard.jump_dashboard_server_action)d" string="Open" class="btn btn-primary" context="{'dashboard_name': '123'}"/>
                 </tree>
             </field>
         </record>
