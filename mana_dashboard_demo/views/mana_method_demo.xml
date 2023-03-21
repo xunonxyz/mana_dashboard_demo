@@ -1,0 +1,45 @@
+
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mana_dashboard_demo.method_demo_list">
+            <field name="name">Method Demo For Mana Dashboard list </field>
+            <field name="model">mana_dashboard_demo.method_demo</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" string="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mana_dashboard_demo.method_demo_form">
+            <field name="name">Method Demo For Mana Dashboard form </field>
+            <field name="model">mana_dashboard_demo.method_demo</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="form-group row">
+                            <label for="name" class="col-sm-2 col-form-label">name</label>
+                            <div class="col-sm-10">
+                                <field name="name" string="name"/>
+                            </div>
+                        </div>
+                        
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mana_dashboard_demo.method_demo_act_window">
+            <field name="name">Method Demo For Mana Dashboard</field>
+            <field name="res_model">mana_dashboard_demo.method_demo</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="mana dashboard demo.method demo" 
+            id="mana_dashboard_demo.method_demo_menu" 
+            parent="mana_dashboard_demo.root_menu" 
+            action="mana_dashboard_demo.method_demo_act_window"/>
+              
+    </data>
+</odoo>

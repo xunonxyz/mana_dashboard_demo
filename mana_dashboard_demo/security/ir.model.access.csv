@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mana_dashboard_demo_method_demo,mana_dashboard_demo.method_demo,model_mana_dashboard_demo_method_demo,,1,1,1,1
+access_mana_dashboard_demo_list_demo,mana_dashboard_demo.list_demo,model_mana_dashboard_demo_list_demo,,1,1,1,1

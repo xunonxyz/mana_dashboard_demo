@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <menuitem name="Dashboard Demo" 
+            id="mana_dashboard_demo.root_menu" 
+            web_icon="mana_dashboard_demo,static/description/icon.png" 
+            sequence="0"/>
+    </data>
+</odoo>
